@@ -9,7 +9,7 @@ export const BtnLink = ({ href, text, className = "" }: BtnLinkProps) => {
     <a
       href={href}
       className={`px-6 py-3 rounded-full outline-none relative overflow-hidden border 
-                  transform transition duration-300  dark:bg-violet-600 cursor-pointer ${className}`}
+                  transform transition duration-300  bg-violet-600 cursor-pointer ${className}`}
     >
       <span className="relative z-10 text-white ">{text}</span>
     </a>
