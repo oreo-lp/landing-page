@@ -79,7 +79,7 @@ export const Hero = () => {
         </div>
 
         {/*添加图像*/}
-        <div className="flex flex-1 lg:w-1/2 lg:h-auto relative lg:max-w-non lg:mx-0 mx-auto max-w-3xl">
+        <div className="flex flex-1 lg:w-1/2 lg:h-auto relative items-center lg:max-w-non lg:mx-0 mx-auto max-w-3xl">
           <img
             src="https://images.pexels.com/photos/7773731/pexels-photo-7773731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Hero image"
