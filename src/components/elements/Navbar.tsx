@@ -8,7 +8,7 @@ export const navItems = [
   { href: "#", text: "Home" }, // 单页面，因此需要在一个页面的不同部分进行跳转
   { href: "#services", text: "Services" },
   { href: "#about-us", text: "About-us" },
-  { href: "#features", text: "Features" },
+  { href: "#pricing", text: "Pricing" },
 ];
 
 export const Navbar = () => {

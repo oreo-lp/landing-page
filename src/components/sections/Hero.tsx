@@ -72,7 +72,7 @@ export const Hero = () => {
                   className="w-full py-3 outline-none bg-transparent"
                 />
                 <Button className="min-w-max text-white">
-                  <span className="relative z-[5]">Get Started</span>
+                  <span className="relative z-5">Get Started</span>
                 </Button>
               </form>
             </div>
