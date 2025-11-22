@@ -1,6 +1,7 @@
-import { Button } from "./Button";
-import { Container } from "./Container";
-import { Paragraph } from "./Paragraph";
+import { Button } from "../shared/Button";
+import { Container } from "../shared/Container";
+import { Paragraph } from "../shared/Paragraph";
+import { Numbers } from "./Numbers";
 
 export const Hero = () => {
   return (
@@ -89,6 +90,7 @@ export const Hero = () => {
           />
         </div>
       </Container>
+      <Numbers/>
     </section>
   );
 };
